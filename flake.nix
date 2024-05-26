@@ -2,7 +2,7 @@
   description = "Collection of several nix formatters.";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/release-22.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     nmd = {
       url = "gitlab:rycee/nmd";
       flake = false;

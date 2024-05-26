@@ -39,7 +39,7 @@ in
             fi
           done
 
-          ${pkgs.nixfmt}/bin/nixfmt \
+          ${pkgs.nixfmt-rfc-style}/bin/nixfmt \
             ${optionalString checkOnly "--check"} \
             ${optionalString (cfg.maxWidth != null) "--width ${toString cfg.maxWidth}"} \
             "''${FILES[@]}"
